@@ -151,7 +151,7 @@ html, body {
 }
 
 body {
-	background: #1692b1 radial-gradient( circle farthest-corner at -20% 120%, #1692b1 0%, #006882 90% );
+	background-image: url('../images/background.jpg');
 	font-size: 85%;
 	line-height: 1.6em;
 }
@@ -282,7 +282,7 @@ h2 {
 
 /*  Welcome  */
 .slide#welcome {
-	background: transparent linear-gradient( 60deg, rgba( 55, 200, 55, 0.3 ) 0, transparent 75% );
+	/*background: transparent linear-gradient( 60deg, rgba( 55, 200, 55, 0.3 ) 0, transparent 75% );*/
 }
 	.slide#welcome #logos {
 		position: absolute;
