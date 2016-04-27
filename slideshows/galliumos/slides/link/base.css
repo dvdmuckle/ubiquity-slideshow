@@ -316,35 +316,6 @@ h2 {
 				.slide#welcome #logos div span.plus:before { content: "+"; }
 				.slide#welcome #logos div span.is:before { content: "="; }
 
-/*  Applications  */
-.slide#applications { }
-	.slide#applications .applist {
-		clear: both;
-
-		display: -webkit-flex;
-		display: flex;
-
-		width: 90%;
-		padding-top: 1.5em;
-
-		font-size: 90%;
-		color: rgba( 255, 255, 255, 0.9 );
-	}
-		.slide#applications .applist div {
-			display: none;
-
-			flex-grow: 1;
-			width: 25%;
-			text-align: center;
-		}
-			.slide#applications .applist div > * {
-				display: block;
-				text-align: center;
-			}
-			.slide#applications .applist div img {
-				height: 48px;
-				margin: 0 auto 0.5em auto;
-			}
 
 /*  Desktop  */
 .slide#desktop { }
